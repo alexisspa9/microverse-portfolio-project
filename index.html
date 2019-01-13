@@ -3,11 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portfolio Project</title>
+	<style>
+		@media screen and(max-width: 800px) {
+			body {
+				background: grey;
+			}
+		}
+		#welcome-section {
+			height: 100vh;
+		}
+		#navbar {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+		}
+	</style>
 </head>
 <body>
 <nav id="navbar">
-	<a href="#projects">Project</a>
-	<a href="https://github.com/patbpm" id = "profile-link">My Profile</a>
+	<a href="#projects">Projects</a>
+	<a href="https://github.com/patbpm" id="profile-link" target="_blank">My Profile</a>
 </nav>
 <div id="welcome-section">
 	<h1>Welcome to my Portfolio</h1>
